@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>
+        ROUND OFF
+    </title>
+    <meta name="author" content="00" />
+    <meta name="copyright" content="00" />
+    <meta name="keywords" content="ROUND OFF" />
+    <meta property="og:description" content="ROUND OFF is a design brand of handcrafts and currently specializes in earrings." />
+    <meta property="og:image" content="https://vyichpmgkxycsxmlczegwg-on.drv.tw/www/images/fb.jpg" />
+    <meta property="og:url" content="http://roundoff-object.com/" />
+    <!-- FB Open Graphic -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="website" />
+    <link rel="image_src" type="image/jpeg" href="https://vyichpmgkxycsxmlczegwg-on.drv.tw/www/images/fb.jpg" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mukta:400,700" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.2.4/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_d.css" type="text/css" media="all" />
+</head>
+
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="images/logo_b.png"></a>
+    </div>
+    <div class="menubar">
+        <a href="#menu" id="toggle"><span></span></a>
+        <div id="menu">
+            <ul>
+               <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="design.html">DESIGN</a></li>
+                    <li><a href="collection1.html">2018 OBJECT IN THE OCEAN</a></li>
+                    <li><a href="collection2.html">2018 ORANGE ITEMS</a></li>
+                    <li><a href="collection3.html">2019 GUMMY!ABC!</a></li>
+                    <li><a href="https://ponyoporconline.shoplineapp.com/categories/round-offobject" target="_blank">SHOP </i></a></li>
+                <li class="icon2 fb"><a href="https://www.facebook.com/roundoff.object/" target="_blank"> <img src="images/fb_b.png"> </a></li>
+                <li class="icon2"><a href="https://www.instagram.com/roundoff.object/" target="_blank"><img src="images/ig_b.png"></a></li>
+                <li class="icon2"><a href="mailto:roundoff.object@gmail.com" target="_blank"><img src="images/mail_b.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrap_about">
+        <div class="content1">
+            <img src="images/about_c.png">
+        </div>
+        <div>
+        </div>
+        <div class="content2">
+            <img src="images/about_e.png">
+            
+        </div>
+    </div>
+    
+    <p class='aviso'><a href='#'><img src="images/copyright_b.png"></p>
+
+
+        <svg version="1.1" xmlns='http://www.w3.org/2000/svg'>
+         <filter id='blur'>
+           <feGaussianBlur stdDeviation='6' />
+           </filter>
+        </svg>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <script src="js/menu.js"></script>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        // Js only for drag the articles
+        $(function() {
+            $( "article" ).draggable();
+        });
+    </script>
+
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+
+        $('.page-scroll').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 1500, 'easeOutExpo');
+            event.preventDefault();
+        });
+    </script>
+    <footer>
+         
+    </footer>
+
+</body>
+</html>
