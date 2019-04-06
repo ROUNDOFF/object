@@ -161,6 +161,50 @@ img.arrow2 {
   background-position: center;
   background-color: #4175de;
 }
+
+.wrapc13coll2{
+  height: 950px;
+  background-image: url(../images/c2/wrap13_bg.png) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #4175de;
+}
+
+
+img.aboutarrow ,img.aboutarrow2{
+      width: 16px;
+    position: absolute;
+    left: 50%;
+    margin-top: 777px;
+    z-index: 10;
+}
+img.aboutarrow2{
+  margin-left: -220px;
+    margin-top: 697px;
+}
+.wrapc13about{
+  height: 865px;
+  background-image: url(../images/about/kv.png) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #a5a5a5;
+}
+.wrapc14about{
+  background-color: #a5a5a5;
+  height: 100%;
+}
+img.c14ctxta{
+  width: 760px;
+}
+img.c14ctxta2{
+  margin:200px 0;
+  width: 600px;
+}
+.c14ca{
+  width: 800px;
+  margin: 0 auto;
+  top:110px;
+}
 /*wrap*/
 .wrapc14{
   background-color: #4175de;
@@ -215,6 +259,38 @@ img.c14ctxt{
 img.c15t{
 padding-bottom: 45px;
 }
+
+
+
+
+.c15design{
+      padding-top: 105px;
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+
+.c15orange{
+   padding-top: 205px;
+   margin-bottom: 200px;
+
+}
+img.c15td{
+  width: 65px;
+  padding-bottom: 45px;
+}
+img.c15td2{
+  width: 242px;
+  padding-top: 65px;
+}
+.arrowdd{
+      position: absolute;
+    left: 50%;
+    width: 16px;
+    margin: 200px 0;
+}
+
+
 /*line*/
 .linemix {
   width: 98px;

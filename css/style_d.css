@@ -837,7 +837,10 @@ li a:focus {
 }
 
 
-
+a, a:link, a:visited {
+    color: #087BFE;
+    text-decoration: none;
+}
 
 
 /*slider*/
