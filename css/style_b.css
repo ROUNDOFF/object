@@ -837,9 +837,19 @@ span.line.line5.line6.Parallax.Parallax_on{
  left: 1px; /*覆盖并错开1px*/
  /*border-right: 10px rgb(54, 115, 230) solid;*/
 }
-.left.left2.left4:before,.left.left2.left4:after,.left.left5:before,.left.left5:after,.left.left3.left6:before{
- border-right: 10px #f15a24 solid;
+i.left.left2.left4:after, i.left.left5:after, i.left.left3.left4.left6:after {
+        border-right: 10px #eed2c8 solid;
 }
+i.left.left2.left4:before, i.left.left5:before, i.left.left3.left4.left6:before{
+  border-right: 10px #f15a24 solid;
+}
+
+span.line.line5.Parallax.Parallax_on{
+  background-color: #f15a24;
+}
+/*.left.left2.left4:before,.left.left2.left4:after,.left.left5:before,.left.left5:after,.left.left3.left6:before{
+ border-right: 10px #f15a24 solid;
+}*/
 .line.line5{
    background-color: #f15a24;
 }
