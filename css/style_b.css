@@ -188,7 +188,7 @@ img.aboutarrow2{
 }
 .wrapc13about{
   height: 865px;
-  background-image: url(../images/about/kv.png) ;
+  /*background-image: url(../images/about/kv.png) ;*/
   background-repeat: no-repeat;
   background-position: center;
   background-color: #a5a5a5;
@@ -934,6 +934,9 @@ img.c14c3c21{
 
 .kvm .slick-prev, .slick-next{
   bottom: 90px;
+}
+.c14.one-time.kvsliderarrowc2.slick-initialized.slick-slider{
+  left: 180px;
 }
 /*.kvm .edicontent.one-time.slick-initialized.slick-slider.slick-dotted{
   width: 850px;
